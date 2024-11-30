@@ -1,0 +1,950 @@
+.brand_logo {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgb(34, 34, 34)
+}
+
+.hero_section {
+    height: 450px;
+    width: 100%;
+    background: url(./Project_img/hero-bg.jpg) no-repeat center center/cover;
+    background-size: 100% 100%;
+}
+
+.rgba_effect {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.rgba_effect h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(16, 110, 234)
+}
+
+.rgba_effect p {
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: color(srgb 0.266667 0.266667 0.266667 / 0.7)
+}
+
+
+/* _____________________ */
+
+#featured-services {
+    margin: 40px;
+    padding: auto;
+}
+
+#services_con {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem
+}
+
+#featured-services .service-item {
+    background-color: #ffffff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#featured-services .service-item .icon {
+    margin-bottom: 10px;
+}
+
+#featured-services .service-item .icon i {
+    color: blue;
+    font-size: 36px;
+}
+
+#featured-services .service-item h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#featured-services .service-item h4 a {
+    color: black;
+}
+
+#featured-services .service-item p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+/* about page */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#about {
+    background-color: #d2e3fa46;
+    padding-bottom: 50px;
+}
+
+.about .about-content h3 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.about .about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .about-content ul li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+.about .about-content ul li:first-child {
+    margin-top: 35px;
+}
+
+.about .about-content ul i {
+    background: #ffffff;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+    margin-right: 15px;
+    color: blue;
+    border-radius: 50px;
+}
+
+.about .about-content ul h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about .about-content ul p {
+    font-size: 15px;
+}
+
+.about .about-content p:last-child {
+    margin-bottom: 0;
+}
+
+.section-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 255, 0.075);
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 500px;
+    border-radius: 50px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section-title p {
+    color: #222222;
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    margin-left: 360px;
+    margin-bottom: 60px;
+}
+
+.section-title p .description-title {
+    color: blue;
+}
+
+.about .about-content h3 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.fst-italic {
+    font-style: italic !important;
+}
+
+.about .about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .about-content ul li:first-child {
+    margin-top: 35px;
+}
+
+.about .about-content ul li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+
+/* skills */
+
+#skills {
+    color: #222222;
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.skills .progress .skill {
+    color: #222222;
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+}
+
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+    background: #44444413;
+    height: 10px;
+}
+
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: rgb(69, 69, 255);
+}
+
+
+/* stats */
+
+.stats i {
+    background-color: blue;
+    color: white;
+    border: 6px solid white;
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.stats .stats-item {
+    background-color: rgba(0, 102, 255, 0.055);
+    margin-top: -32px;
+    padding: 40px 30px 35px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 0;
+}
+
+.stats .stats-item span {
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+}
+
+.stats .stats-item p {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+/* clients */
+
+
+/* #Clients {
+    width: 100%;
+    height: 40px;
+    color: #222222;
+    background-color: #ffffff;
+    padding: 60px 0;
+    align-items: center;
+    display: inline;
+} */
+
+.carousel {
+    color: #222222;
+    background-color: rgba(0, 102, 255, 0.055);
+    padding: 50px;
+    margin-top: 60px;
+}
+
+
+/* Services */
+
+.services .service-item {
+    background-color: var(--surface-color);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 80px 20px;
+    height: 100%;
+}
+
+.services .service-item .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: blue;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.services .service-item .icon i {
+    color: white;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+}
+
+.services .service-item h3 {
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.services .service-item p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.services .service-item:hover {
+    border-color: blue;
+}
+
+.services .service-item:hover h3 {
+    color: blue;
+}
+
+
+/* testimonioal */
+
+.testimonioal_section {
+    background-image: url(Project_img/testimonials-bg.jpg);
+    width: 100%;
+    height: 520px;
+}
+
+.testimonioal_inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.11);
+    left: 550px;
+}
+
+.testimonioal_inner-word {
+    height: 120px;
+    width: 120px;
+    color: gold;
+    left: 510px;
+}
+
+.testimonioal_inner h3 {
+    color: white;
+}
+
+
+/* Portfolio */
+
+.portfolio .portfolio-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.portfolio .portfolio-filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    font-family: sans-serif;
+}
+
+.portfolio .portfolio-filters li:hover,
+.portfolio .portfolio-filters li.filter-active {
+    color: white;
+    background-color: #106eea;
+}
+
+.portfolio .portfolio-filters li:first-child {
+    margin-left: 0;
+}
+
+.portfolio .portfolio-filters li:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 575px) {
+    .portfolio .portfolio-filters li {
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+}
+
+.team .team-member {
+    background-color: var(--surface-color);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.team .team-member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .team-member .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background: color-mix(in srgb, var(--background-color), transparent 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .team-member .social a {
+    transition: color 0.3s;
+    color: var(--heading-color);
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .team-member .social a i {
+    line-height: 0;
+}
+
+.team .team-member .social a:hover {
+    color: var(--accent-color);
+}
+
+.team .team-member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.team .team-member .member-info {
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.team .team-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.team .team-member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.team .team-member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.team .team-member:hover .social {
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------------------
+  # Pricing Section
+  --------------------------------------------------------------*/
+
+.pricing .pricing-item {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing .pricing-item h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    background: color-mix(in srgb, var(--default-color), transparent 95%);
+}
+
+.pricing .pricing-item h4 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+}
+
+.pricing .pricing-item h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+
+.pricing .pricing-item h4 span {
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pricing .pricing-item ul {
+    padding: 15px 0;
+    list-style: none;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.pricing .pricing-item ul li {
+    padding-bottom: 16px;
+}
+
+.pricing .pricing-item ul i {
+    color: var(--accent-color);
+    font-size: 18px;
+    padding-right: 4px;
+}
+
+.pricing .pricing-item ul .na {
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    text-decoration: line-through;
+}
+
+.pricing .btn-wrap {
+    background: color-mix(in srgb, var(--default-color), transparent 95%);
+    margin: 0 -20px -20px -20px;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.pricing .btn-buy {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.pricing .btn-buy:hover {
+    background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.pricing .featured h3 {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.pricing .advanced {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+}
+
+
+/*--------------------------------------------------------------
+  # Faq Section
+  --------------------------------------------------------------*/
+
+.faq .faq-container .faq-item {
+    background-color: var(--surface-color);
+    position: relative;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.faq .faq-container .faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq .faq-container .faq-item h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 30px 0 0;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.faq .faq-container .faq-item h3 .num {
+    color: var(--accent-color);
+    padding-right: 5px;
+}
+
+.faq .faq-container .faq-item h3:hover {
+    color: var(--accent-color);
+}
+
+.faq .faq-container .faq-item .faq-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.faq .faq-container .faq-item .faq-content p {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.faq .faq-container .faq-item .faq-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.faq .faq-container .faq-item .faq-toggle:hover {
+    color: var(--accent-color);
+}
+
+.faq .faq-container .faq-active {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.faq .faq-container .faq-active h3 {
+    color: var(--contrast-color);
+}
+
+.faq .faq-container .faq-active .faq-content {
+    grid-template-rows: 1fr;
+    visibility: visible;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.faq .faq-container .faq-active .faq-toggle {
+    transform: rotate(90deg);
+    color: var(--accent-color);
+}
+
+
+/*--------------------------------------------------------------
+  # Contact Section
+  --------------------------------------------------------------*/
+
+.contact .info-wrap {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+@media (max-width: 575px) {
+    .contact .info-wrap {
+        padding: 20px;
+    }
+}
+
+.contact .info-item {
+    margin-bottom: 40px;
+}
+
+.contact .info-item i {
+    font-size: 20px;
+    color: var(--accent-color);
+    background: color-mix(in srgb, var(--accent-color), transparent 92%);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+.contact .info-item h3 {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.contact .info-item:hover i {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.contact .php-email-form {
+    background-color: var(--surface-color);
+    height: 100%;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 575px) {
+    .contact .php-email-form {
+        padding: 20px;
+    }
+}
+
+.contact .php-email-form input[type=text],
+.contact .php-email-form input[type=email],
+.contact .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: var(--default-color);
+    background-color: var(--surface-color);
+    border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+}
+
+.contact .php-email-form input[type=text]:focus,
+.contact .php-email-form input[type=email]:focus,
+.contact .php-email-form textarea:focus {
+    border-color: var(--accent-color);
+}
+
+.contact .php-email-form input[type=text]::placeholder,
+.contact .php-email-form input[type=email]::placeholder,
+.contact .php-email-form textarea::placeholder {
+    color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.contact .php-email-form button[type=submit] {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+
+/*--------------------------------------------------------------
+  # Service Details Section
+  --------------------------------------------------------------*/
+
+.service-details .services-list {
+    background-color: var(--surface-color);
+    padding: 10px 30px;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    margin-bottom: 20px;
+}
+
+.service-details .services-list a {
+    display: block;
+    line-height: 1;
+    padding: 8px 0 8px 15px;
+    border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
+    margin: 20px 0;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    transition: 0.3s;
+}
+
+.service-details .services-list a.active {
+    color: var(--heading-color);
+    font-weight: 700;
+    border-color: var(--accent-color);
+}
+
+.service-details .services-list a:hover {
+    border-color: var(--accent-color);
+}
+
+.service-details .services-img {
+    margin-bottom: 20px;
+}
+
+.service-details h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.service-details h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.service-details p {
+    font-size: 15px;
+}
+
+.service-details ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.service-details ul li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.service-details ul i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: var(--accent-color);
+}
+
+
+/*--------------------------------------------------------------
+  # Portfolio Details Section
+  --------------------------------------------------------------*/
+
+.portfolio-details .portfolio-details-slider img {
+    width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+    opacity: 1;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--accent-color);
+}
+
+.portfolio-details .portfolio-info {
+    background-color: var(--surface-color);
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-details .portfolio-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.portfolio-details .portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+    margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+    padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+    padding: 0;
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+
+/* footer */
+
+.footer .footer-newsletter {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgba(0, 0, 255, 0.041);
+    padding: 50px 0;
+}
